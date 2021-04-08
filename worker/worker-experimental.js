@@ -1,5 +1,5 @@
 /**
- * A Script Redesigned by Parveen Bhadoo from GOIndex at https://github.com/ParveenBhadooOfficial/Google-Drive-Index
+ * A Script Redesigned by Parveen Bhadoo from GOIndex at https://github.com/RohanTrix/Google-Drive-Index
  */
 const authConfig = {
     "siteName": "Google Drive Index", // Website name
@@ -64,9 +64,9 @@ const authConfig = {
  * web ui config
  */
 const uiConfig = {
-    "theme": "dark", // switch between themes, default set to dark, select from https://github.com/ParveenBhadooOfficial/Google-Drive-Index#themes
+    "theme": "dark", // switch between themes, default set to dark, select from https://github.com/RohanTrix/Google-Drive-Index#themes
     "dark_mode": true, // incase you're viewing wrong colors try switching this
-    "version": "2.0.15", // don't touch this one. get latest code using generator at https://github.com/ParveenBhadooOfficial/Bhadoo-Drive-Index
+    "version": "2.0.15", // don't touch this one. get latest code using generator at https://github.com/RohanTrix/Bhadoo-Drive-Index
     "logo_image": true, // true if you're using image link in next option.
     "logo_height": "", // only if logo_image is true
     "logo_width": "100px", // only if logo_image is true
@@ -79,9 +79,9 @@ const uiConfig = {
     "display_size": true, // Set this to false to hide display file size
     "display_time": false, // Set this to false to hide display modified time for folder and files
     "disable_player": false, // Set this to true to hide audio and video players
-    "poster": "https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Google-Drive-Index@2.0.10/images/poster.jpg", // Video poster URL or see Readme to how to load from Drive
-    "audioposter": "https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Google-Drive-Index@2.0.10/images/music.jpg", // Video poster URL or see Readme to how to load from Drive
-    "jsdelivr_cdn_src": "https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Google-Drive-Index", // If Project is Forked, then enter your Github repo
+    "poster": "https://cdn.jsdelivr.net/gh/RohanTrix/Google-Drive-Index@2.0.10/images/poster.jpg", // Video poster URL or see Readme to how to load from Drive
+    "audioposter": "https://cdn.jsdelivr.net/gh/RohanTrix/Google-Drive-Index@2.0.10/images/music.jpg", // Video poster URL or see Readme to how to load from Drive
+    "jsdelivr_cdn_src": "https://cdn.jsdelivr.net/gh/RohanTrix/Google-Drive-Index", // If Project is Forked, then enter your Github repo
     "plyr_io_version": "3.6.4" // Change plyr.io version in future when needed.
 };
 
