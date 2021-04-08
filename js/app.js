@@ -1,4 +1,4 @@
-// Redesigned by t.me/TheFirstSpeedster from https://github.com/ParveenBhadooOfficial/Google-Drive-Index which was written by someone else, credits are given on Source Page.
+// Redesigned by t.me/TheFirstSpeedster from https://github.com/RohanTrix/Google-Drive-Index which was written by someone else, credits are given on Source Page.
 // v2.0.15
 // Initialize the page
 function init() {
@@ -397,7 +397,7 @@ function append_files_to_list(path, files) {
                 pn += "?a=view";
                 c += " view";
             }
-            html += `<div class="list-group-item ${UI.dark_mode ? 'list-group-item-action' : 'btn-outline-secondary'}"><a class="list-group-item-action" href="${pn}"><svg width="1.5em" height="1.5em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path fill="#50e6ff" d="M39,16v25c0,1.105-0.895,2-2,2H11c-1.105,0-2-0.895-2-2V7c0-1.105,0.895-2,2-2h17L39,16z"></path><linearGradient id="F8F33TU9HxDNWNbQYRyY3a" x1="28.529" x2="33.6" y1="15.472" y2="10.4" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3079d6"></stop><stop offset="1" stop-color="#297cd2"></stop></linearGradient><path fill="url(#F8F33TU9HxDNWNbQYRyY3a)" d="M28,5v9c0,1.105,0.895,2,2,2h9L28,5z"></path></svg> ${item.name}</a><a href="${p}"><img class="float-right" src="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Google-Drive-Index@2.0.7/images/download-file.svg" width="25px"></a><span class="badge-info badge-pill float-right csize"> ${item['size']}</span><span class="badge-primary badge-pill float-right cmtime">${item['modifiedTime']}</span></div>`;
+            html += `<div class="list-group-item ${UI.dark_mode ? 'list-group-item-action' : 'btn-outline-secondary'}"><a class="list-group-item-action" href="${pn}"><svg width="1.5em" height="1.5em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path fill="#50e6ff" d="M39,16v25c0,1.105-0.895,2-2,2H11c-1.105,0-2-0.895-2-2V7c0-1.105,0.895-2,2-2h17L39,16z"></path><linearGradient id="F8F33TU9HxDNWNbQYRyY3a" x1="28.529" x2="33.6" y1="15.472" y2="10.4" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3079d6"></stop><stop offset="1" stop-color="#297cd2"></stop></linearGradient><path fill="url(#F8F33TU9HxDNWNbQYRyY3a)" d="M28,5v9c0,1.105,0.895,2,2,2h9L28,5z"></path></svg> ${item.name}</a><a href="${p}"><img class="float-right" src="https://cdn.jsdelivr.net/gh/RohanTrix/Google-Drive-Index@2.0.7/images/download-file.svg" width="25px"></a><span class="badge-info badge-pill float-right csize"> ${item['size']}</span><span class="badge-primary badge-pill float-right cmtime">${item['modifiedTime']}</span></div>`;
         }
     }
 
@@ -740,8 +740,8 @@ function file_code(path) {
   <input type="text" class="form-control" id="dlurl" value="${href}">
 </div>
 	<p class="card-text text-center"><a href="${href}" class="btn btn-primary">Download</a> <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button></p><br></div>
-<script src="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Google-Drive-Index@2.0.8/js/ace/1.4.7/ace.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Google-Drive-Index@2.0.8/js/ace/1.4.7/ext-language_tools.js"></script>`;
+<script src="https://cdn.jsdelivr.net/gh/RohanTrix/Google-Drive-Index@2.0.8/js/ace/1.4.7/ace.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/RohanTrix/Google-Drive-Index@2.0.8/js/ace/1.4.7/ext-language_tools.js"></script>`;
     $('#content').html(content);
 
     $.get(path, function(data) {
