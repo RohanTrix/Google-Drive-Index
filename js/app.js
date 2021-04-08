@@ -740,8 +740,8 @@ function file_code(path) {
   <input type="text" class="form-control" id="dlurl" value="${href}">
 </div>
 	<p class="card-text text-center"><a href="${href}" class="btn btn-primary">Download</a> <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button></p><br></div>
-<script src="https://cdn.jsdelivr.net/gh/RohanTrix/Google-Drive-Index@2.0.8/js/ace/1.4.7/ace.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/RohanTrix/Google-Drive-Index@2.0.8/js/ace/1.4.7/ext-language_tools.js"></script>`;
+<script src="https://cdn.jsdelivr.net/gh/RohanTrix/Google-Drive-Index@master/js/ace/1.4.7/ace.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/RohanTrix/Google-Drive-Index@master/js/ace/1.4.7/ext-language_tools.js"></script>`;
     $('#content').html(content);
 
     $.get(path, function(data) {
