@@ -141,7 +141,7 @@ function nav(path) {
     }
 
     html += `</div></li><li class="nav-item">
-    <a class="nav-link" href="${UI.contact_link}" target="_blank">Contact</a>
+    <a class="nav-link" href="${UI.contact_link}" target="github.com/RohanTrix">Contact</a>
   </li>`;
 
     var search_text = model.is_search_page ? (model.q || '') : '';
